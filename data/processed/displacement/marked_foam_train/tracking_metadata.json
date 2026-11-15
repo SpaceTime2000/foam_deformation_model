@@ -1,0 +1,108 @@
+{
+  "config_hash": "6d276956e81b4ed5cbcd2a348b3837646b4fbfffa72b9dbc6e677bcb6855cd11",
+  "method": "Per-trial resting marker initialization, persistent ink-supported flow, maroon-cover prior and refined underside edge",
+  "observation_assumption": "Approximately uniform vertical strain, stationary camera and table",
+  "config": {
+    "version": 1,
+    "video": "C:\\Users\\TANISH\\Desktop\\Everything\\Sem 5\\Non-course\\Dirac Robotics\\data\\train\\marked_foam_train.mp4",
+    "capture_fps": 120.0,
+    "frame_count": 3408,
+    "dimensions_mm": [
+      190,
+      75,
+      35
+    ],
+    "reference_frame": 0,
+    "markers": [
+      [
+        667.1349693251534,
+        527.9693251533743
+      ],
+      [
+        958.979865771812,
+        528.0402684563759
+      ],
+      [
+        1199.9021739130435,
+        534.6992753623189
+      ],
+      [
+        1422.5974842767296,
+        544.1823899371069
+      ],
+      [
+        515.5483870967741,
+        652.4193548387096
+      ],
+      [
+        811.8247863247864,
+        650.991452991453
+      ],
+      [
+        1063.627659574468,
+        657.6436170212766
+      ],
+      [
+        1305.349315068493,
+        665.3698630136986
+      ],
+      [
+        1523.7963800904977,
+        668.8552036199095
+      ]
+    ],
+    "trials": [
+      {
+        "start": 157,
+        "stop": 635,
+        "role": "train"
+      },
+      {
+        "start": 835,
+        "stop": 1345,
+        "role": "train"
+      },
+      {
+        "start": 1576,
+        "stop": 2146,
+        "role": "train"
+      },
+      {
+        "start": 2347,
+        "stop": 2595,
+        "role": "train"
+      },
+      {
+        "start": 2808,
+        "stop": 3018,
+        "role": "validation"
+      }
+    ],
+    "rest_top_y_px": 498.13,
+    "table_y_px": 828.79,
+    "book_reference_frame": 323,
+    "book_points": [
+      [
+        704.43,
+        526.04
+      ],
+      [
+        1101.74,
+        523.9
+      ]
+    ],
+    "marker_roi": [
+      455,
+      458,
+      1583,
+      838
+    ],
+    "book_x_range": [
+      704.43,
+      1101.74
+    ],
+    "book_binding_offset_px": 78.25088730411687,
+    "video_size_bytes": 127844961,
+    "video_modified_ns": 1794755272125501000
+  }
+}

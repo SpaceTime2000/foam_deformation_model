@@ -1,0 +1,134 @@
+{
+  "config_hash": "818a1077377d67b272809fc780c8d47d55be81f214356c1dcf6d2a221b94fa62",
+  "method": "Per-trial resting marker initialization, persistent ink-supported flow, maroon-cover prior and refined underside edge",
+  "observation_assumption": "Approximately uniform vertical strain, stationary camera and table",
+  "config": {
+    "version": 1,
+    "video": "C:\\Users\\TANISH\\Desktop\\Everything\\Sem 5\\Non-course\\Dirac Robotics\\data\\test\\marked_foam_test.mp4",
+    "capture_fps": 120.0,
+    "frame_count": 2471,
+    "dimensions_mm": [
+      190,
+      75,
+      35
+    ],
+    "reference_frame": 0,
+    "markers": [
+      [
+        573.3883495145631,
+        537.0970873786408
+      ],
+      [
+        826.6666666666667,
+        540.3448275862069
+      ],
+      [
+        1030.7548076923076,
+        546.4375
+      ],
+      [
+        1217.891472868217,
+        552.8992248062016
+      ],
+      [
+        439.1969696969697,
+        643.6136363636364
+      ],
+      [
+        698.48322147651,
+        644.2953020134228
+      ],
+      [
+        916.2537313432836,
+        648.9701492537313
+      ],
+      [
+        1120.9207920792078,
+        654.6138613861386
+      ],
+      [
+        1302.6642335766423,
+        654.7737226277372
+      ],
+      [
+        442.0121951219512,
+        754.5243902439024
+      ],
+      [
+        583.2692307692307,
+        758.3557692307693
+      ],
+      [
+        706.3478260869565,
+        762.304347826087
+      ],
+      [
+        833.3846153846154,
+        757.5769230769231
+      ],
+      [
+        930.9047619047619,
+        765.7857142857142
+      ],
+      [
+        1045.06,
+        759.4100000000001
+      ],
+      [
+        1130.5666666666666,
+        764.0
+      ],
+      [
+        1233.9627329192547,
+        762.5900621118012
+      ],
+      [
+        1314.016393442623,
+        764.4426229508197
+      ]
+    ],
+    "trials": [
+      {
+        "start": 170,
+        "stop": 641,
+        "role": "test"
+      },
+      {
+        "start": 946,
+        "stop": 1326,
+        "role": "test"
+      },
+      {
+        "start": 1963,
+        "stop": 2415,
+        "role": "test"
+      }
+    ],
+    "rest_top_y_px": 513.16,
+    "table_y_px": 792.29,
+    "book_reference_frame": 190,
+    "book_points": [
+      [
+        637.85,
+        513.16
+      ],
+      [
+        1009.4,
+        513.16
+      ]
+    ],
+    "marker_roi": [
+      379,
+      473,
+      1374,
+      802
+    ],
+    "book_x_range": [
+      637.85,
+      1009.4
+    ],
+    "book_binding_offset_px": 35.991556871729756,
+    "video_size_bytes": 92761158,
+    "video_modified_ns": 1794763804347746100
+  }
+}

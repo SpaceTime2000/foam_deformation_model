@@ -1,0 +1,20 @@
+[
+  {
+    "trial": 1,
+    "frames": 472,
+    "frames_with_four_markers": 472,
+    "full_marker_frames": 158
+  },
+  {
+    "trial": 2,
+    "frames": 381,
+    "frames_with_four_markers": 381,
+    "full_marker_frames": 120
+  },
+  {
+    "trial": 3,
+    "frames": 453,
+    "frames_with_four_markers": 453,
+    "full_marker_frames": 121
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "trial": 1,
+    "frames": 479,
+    "frames_with_four_markers": 479,
+    "full_marker_frames": 251
+  },
+  {
+    "trial": 2,
+    "frames": 511,
+    "frames_with_four_markers": 511,
+    "full_marker_frames": 133
+  },
+  {
+    "trial": 3,
+    "frames": 571,
+    "frames_with_four_markers": 453,
+    "full_marker_frames": 162
+  },
+  {
+    "trial": 4,
+    "frames": 249,
+    "frames_with_four_markers": 94,
+    "full_marker_frames": 31
+  },
+  {
+    "trial": 5,
+    "frames": 211,
+    "frames_with_four_markers": 75,
+    "full_marker_frames": 41
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "model_path": "C:\\Users\\TANISH\\Desktop\\Everything\\Sem 5\\Non-course\\Dirac Robotics\\data\\processed\\displacement\\marked_foam_train\\parameters.json",
+  "model_hash": "dc45bc8f5ece806ff4a088b4c79b71e990b2538728f7e61a276e7a2821c9c886",
+  "metrics": [
+    {
+      "trial": 1,
+      "role": "test",
+      "marker_rmse_mm": 2.010487315088296,
+      "rest_baseline_marker_rmse_mm": 7.111085576708251,
+      "recovery_marker_rmse_mm": 0.8356504651789617,
+      "recovery_frames": 10,
+      "marker_frame_coverage": 1.0,
+      "base_shift_rms_mm": 5.289251128160173,
+      "maximum_book_tilt_deg": 1.4551314608500592,
+      "horizontal_marker_rmse_mm": 1.549551024760254,
+      "marker_height_rmse_mm": 5.051097452410987
+    },
+    {
+      "trial": 2,
+      "role": "test",
+      "marker_rmse_mm": 2.124104943620001,
+      "rest_baseline_marker_rmse_mm": 8.319495103276475,
+      "recovery_marker_rmse_mm": 0.710971076994657,
+      "recovery_frames": 25,
+      "marker_frame_coverage": 1.0,
+      "base_shift_rms_mm": 5.914246513313081,
+      "maximum_book_tilt_deg": 1.2846557655392277,
+      "horizontal_marker_rmse_mm": 0.8848663775112128,
+      "marker_height_rmse_mm": 5.615361395605045
+    },
+    {
+      "trial": 3,
+      "role": "test",
+      "marker_rmse_mm": 1.9684959604844774,
+      "rest_baseline_marker_rmse_mm": 7.168573637215841,
+      "recovery_marker_rmse_mm": 0.5791794334061104,
+      "recovery_frames": 28,
+      "marker_frame_coverage": 1.0,
+      "base_shift_rms_mm": 4.531117596838567,
+      "maximum_book_tilt_deg": 3.7330295481102485,
+      "horizontal_marker_rmse_mm": 0.49894610674624673,
+      "marker_height_rmse_mm": 3.702979813041911
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "model": "displacement-controlled first-order contact recovery",
+  "dimensions_mm": [
+    190,
+    75,
+    35
+  ],
+  "recovery_time_s": 0.06163316762737017,
+  "capture_fps": 120.0,
+  "training_trials": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "cross_validation": [
+    {
+      "validation_trial": 1,
+      "tau_s": 0.055544044696608896,
+      "marker_mse_mm2": 5.106182909944253
+    },
+    {
+      "validation_trial": 2,
+      "tau_s": 0.05993989441081944,
+      "marker_mse_mm2": 6.5741503017909135
+    },
+    {
+      "validation_trial": 3,
+      "tau_s": 0.05676571531571843,
+      "marker_mse_mm2": 15.002255751697147
+    },
+    {
+      "validation_trial": 4,
+      "tau_s": 0.7172796141825836,
+      "marker_mse_mm2": 44.19474328226997
+    }
+  ],
+  "max_book_gap": 8,
+  "book_input_repairs": [
+    {
+      "trial": 1,
+      "intervals": [
+        {
+          "first_frame": 609,
+          "last_frame": 612,
+          "count": 4,
+          "method": "constant upward velocity from preceding observed book heights"
+        },
+        {
+          "first_frame": 620,
+          "last_frame": 620,
+          "count": 1,
+          "method": "unconstrained plate bracketed by absent-book observations"
+        }
+      ]
+    },
+    {
+      "trial": 4,
+      "intervals": [
+        {
+          "first_frame": 2578,
+          "last_frame": 2580,
+          "count": 3,
+          "method": "linear interpolation between observed book heights"
+        },
+        {
+          "first_frame": 2582,
+          "last_frame": 2587,
+          "count": 6,
+          "method": "constant upward velocity from preceding observed book heights"
+        }
+      ]
+    },
+    {
+      "trial": 5,
+      "intervals": [
+        {
+          "first_frame": 2993,
+          "last_frame": 2999,
+          "count": 7,
+          "method": "constant upward velocity from preceding observed book heights"
+        }
+      ]
+    }
+  ],
+  "config_hash": "6d276956e81b4ed5cbcd2a348b3837646b4fbfffa72b9dbc6e677bcb6855cd11",
+  "observations_hash": "2598285a05b8162451f2ba2dd1bd207ff4c9ee5e27faab366d3e9fd10abadb1d",
+  "fit_at_boundary": false,
+  "max_substep_difference_mm": 8.670304190872002e-05,
+  "weak_time_constant_identification": true,
+  "training_marker_mse_mm2": 10.771434410840376,
+  "half_tau_marker_mse_mm2": 10.910822637369881,
+  "twice_tau_marker_mse_mm2": 11.219851868661763,
+  "equation": "h_free=H-(H-h)*exp(-dt/tau); h_next=min(h_free,book_height)",
+  "state_initialization": "Resting height at the beginning of every selected interval",
+  "marker_mapping": "y_i=table_y+(y_i_reference-table_y)*h/H; x_i=x_i_reference",
+  "assumptions": [
+    "uniform vertical strain",
+    "horizontal prescribed plate",
+    "negligible inertia",
+    "fixed length and width",
+    "no identified contact force or separate stiffness/damping"
+  ],
+  "timing_assumption": "Every exported frame corresponds to one uniformly spaced 120.0-fps capture sample.",
+  "provenance": "Video foam observations supervise fitting; only book motion drives subsequent simulation."
+}

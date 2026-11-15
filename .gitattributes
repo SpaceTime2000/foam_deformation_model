@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+# JSON snapshots are byte-hashed for model/input consistency. Preserve exact bytes.
+*.json -text
+*.csv text eol=lf
+*.mp4 binary
+*.npz binary

@@ -8,6 +8,10 @@ The fitted recovery time is **61.6 ms**. On three presses in a separate recordin
 
 ## View the result
 
+**Interactive viewer:** [Open the real-video and model comparison](https://spacetime2000.github.io/foam_deformation_model/).
+
+**Source code and saved model:** [GitHub repository](https://github.com/SpaceTime2000/foam_deformation_model).
+
 **Input footage:** [Download the original recordings from Google Drive](https://drive.google.com/drive/folders/1eDp1PoQyIxnEdt35SP5SI9YXnNkyjfJ6?usp=sharing). For rerunning the pipeline, place `marked_foam_train.mp4` in `data/train/` and `marked_foam_test.mp4` in `data/test/`. The viewer retains its own test-video playback copy at `viewer/dist/video.mp4`; the Drive folder is the download source, not the webpage's streaming URL.
 
 The interactive page shows the real test recording beside a rotatable 3D proxy. Green circles mark tracked dots and orange crosses show predicted positions. Playback, the 3D response and the graphs share the same timeline. A separate graph compares measured and predicted displacement for any initialized dot; another shows prediction error throughout the press. Parameters, metrics and the exported predictions can be downloaded from the page.
@@ -32,7 +36,7 @@ python viewer.py export --max-book-gap 8
 
 Export reads the frozen training parameters and test observations. It computes predictions and baseline scores, copies the original test video into `viewer/dist`, and does **not** fit or change the model. The browser displays these precomputed Python predictions; it does not run a separate physics implementation or learn from playback.
 
-The local address works only on the computer serving it. A hosted viewer link and GitHub repository still need to be supplied in the submission email. No public deployment or hiring-team access is implied by the presence of this README.
+The local address works only on the computer serving it. Use the hosted viewer and repository links above in the submission email, after checking that the deployed page and footage downloads work while signed out.
 
 ## Why use the book's movement as the input?
 
@@ -190,4 +194,4 @@ The applicant supplied the object, measurements, videos and manual annotations, 
 
 ## Submission status
 
-The local project contains code, a fitted model, original recordings and a working exported viewer. That local state is not yet the email submission. The public GitHub repository still needs to be prepared with the relevant code, annotations, parameters, requirements and documentation, and the viewer needs an accessible hosted link. The Drive download folder is linked above; its contents and signed-out download access must be checked before emailing the repository and result links.
+The public repository contains the final code, fitted model, annotations, processed observations and exported viewer. GitHub Pages is configured to serve the result at the viewer address above. Before submitting, check the hosted video playback and controls, and verify that both original recordings in the linked Drive folder are downloadable while signed out. This README does not establish that those access checks have passed or that the submission email has been sent.
